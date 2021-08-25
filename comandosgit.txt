@@ -18,6 +18,8 @@ cp : Faz a cópia de um arquivo para um diretório
 -
 ls : Mostra o que tem dentro de cada diretório
 -
+nl : Mostra o que tem detro de um arquivo e o numero de linhas
+-
 touch: Cria arquivos
 ou echo > Cria arquivos
 -
