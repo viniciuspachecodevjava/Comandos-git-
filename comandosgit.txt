@@ -1,0 +1,103 @@
+-a: Exibe arquivos e diretórios ocultos
+-
+history: Histórico de comandos
+history -c : Limpa o histórico de comandos
+-
+mkdir : Cria diretórios
+-
+rm dir ou rm -r : Deleta diretórios
+-
+rm : Deleta arquivos
+-
+mv + nome atual + novo nome : altera o nome de um arquivo
+-
+mv dir (que eu quero mover)/ dir(diretório que quero colocar)/:
+Move um diretório para outro
+-
+cp : Faz a cópia de um arquivo para um diretório
+-
+ls : Mostra o que tem dentro de cada diretório
+-
+touch: Cria arquivos
+ou echo > Cria arquivos
+-
+cd + dir : Entra em um diretório
+-
+cd / : Muda para o diretório raíz
+-
+cd ~ : Muda para o diretório pessoal
+-
+cd .. : Retorna
+-
+comando + --help: Ajuda
+-
+Nano: Edita o conteúdo de um arquivo
+-
+pwd : Mostra o caminho até onde estou 
+-
+Cat + nome do arquivo : Exibe o conteúdo do arquivo 
+Cat + nome do arquivo |More - |Less : Arquivos grandes (Paginação)
+-
+Head : Mostra as 10 primeiras linhas de um arquivo
+-
+Tail : Mostra as 10 últimas linhas de um arquivo
+-
+cal: exibe o calendário
+-
+Date: Exibe a data
+-
+
+clear : limpa o terminal ou cntrl L
+-
+exit : fecha o terminal
+-
+git init : Inicia o git
+-
+git status : Mostra o estado atual dos arquivos e diretórios
+-
+git add : Move o arquivo de untracked para unstage 
+(Pronto para um novo commit)
+-
+git commit -m "" : Realiza com comit
+-
+git push origin : Empurra o repositorio local para o github
+-
+git clone + link : Pega/Clona o repositório remoto para o
+repositório local
+-
+git remote -v: Lista as conecções existentes ou para onde 
+o servidor local está apontando
+-
+git checkout -b + nome : cria uma branch e se move para ela
+-
+git checkout -d + nome : Deleta uma branch
+-
+git checkout + nome : Se move para uma branch
+-
+git branch: Lista todas as branchs
+-
+git branch -m + novo nome da branch + nome antigo : Altera o 
+nome da branch (Fora da branch a ser alterada)
+-
+git branch -m : Altera o nome da branch dentro da própria
+-
+git merge : Funde uma branch a branch atual
+(Junta seus conteúdos) 
+-----------------------------------------------------------------------
+| : Envia a saída de um comando para a entrada de outro comando permitindo a execução de dois comandos
+-
+> : Redireciona a saída de com comando para outro comando ou arquivo
+-
+>> : Redireciona a saída e adiciona a mesma para um comando ou arquivo 
+-
+< : Direciona a entrada de um arquivo para a saída de um comando 
+-
+& : Permite usar dois comandos e separar suas saídas no terminal 
+-
+&& : Usado para que dois comandos sejam executados se o primeiro for executado com sucesso
+-
+
+
+
+
+
