@@ -119,6 +119,10 @@ git stash save : Armazena os arquivos em uma branch enviando que eles acompanhem
 -
 git stash list : Mostra uma lista contendo os stashs que foram feitos em uma branch
 -
+git stash pop (E o número do array que está armazenando as informações, verificar usando git stash list) : Abre o armazenamento e traz para fora as informações armazenadas
+-
+git stash clear : Limpar tudo que está contido no stash
+-
 
 
 
