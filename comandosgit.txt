@@ -1,3 +1,10 @@
+-
+Setar usuário
+git config --global user.name "Leonardo Comelli"
+-
+Setar email
+git config --global user.email "leonardo@software-ltda.com.br"
+-
 -a: Exibe arquivos e diretórios ocultos
 -
 history: Histórico de comandos
@@ -5,9 +12,11 @@ history -c : Limpa o histórico de comandos
 -
 mkdir : Cria diretórios
 -
-rm dir ou rm -r : Deleta diretórios
+Remover arquivo
+git rm meu_arquivo.txt
 -
-rm : Deleta arquivos
+Remover diretório
+git rm -r diretorio
 -
 mv + nome atual + novo nome : altera o nome de um arquivo
 -
@@ -60,7 +69,14 @@ git status : Mostra o estado atual dos arquivos e diretórios
 git add : Move o arquivo de untracked para unstage 
 (Pronto para um novo commit)
 -
-git commit -m "" : Realiza com comit
+Comitar um arquivo
+git commit meu_arquivo.txt
+-
+Comitar vários arquivos
+git commit meu_arquivo.txt meu_outro_arquivo.txt
+-
+Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
 -
 git push origin : Empurra o repositorio local para o github
 -
@@ -97,6 +113,11 @@ git merge : Funde uma branch a branch atual
 & : Permite usar dois comandos e separar suas saídas no terminal 
 -
 && : Usado para que dois comandos sejam executados se o primeiro for executado com sucesso
+-
+------------------------------------------------------------------------
+git stash save : Armazena os arquivos em uma branch enviando que eles acompanhem o usuario assim que mudar para uma nova branch
+-
+git stash list : Mostra uma lista contendo os stashs que foram feitos em uma branch
 -
 
 
