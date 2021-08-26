@@ -83,8 +83,8 @@ git commit meu_arquivo.txt meu_outro_arquivo.txt
 Comitar informando mensagem:
 git commit meuarquivo.txt -m "minha mensagem de commit"
 -
-git reset --soft : Comando inverso do git add, reseta o último commit feito, e retorna ele para a área de staging/index, ou seja, antes do commit
-git reset --mixed : Reseta o útimo commit e retorna ele para área working dir, ou seja, antes de rodar o comando git add 
+git reset --soft head~1 : Comando inverso do git add, reseta o último commit feito, e retorna ele para a área de staging/index, ou seja, antes do commit
+git reset --mixed head~1 : Reseta o útimo commit e retorna ele para área working dir, ou seja, antes de rodar o comando git add 
 -
 git push origin : Empurra o repositorio local para o github
 -
