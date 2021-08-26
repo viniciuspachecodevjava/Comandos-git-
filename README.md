@@ -193,6 +193,28 @@ o servidor local está apontando
 - Limpar tudo que está contido no stash
 -----------------
 
+------------------------------------------------------------
+
+# Estrutura dos commits
+- Assunto    
+- Corpo
+- Rodapé
+
+-----------------
+
+#### Assunto: 
+Curto e compreensível | Até 50 caracteres | Começo com letra maiúscula | 
+Não terminar com ponto | Escrito de forma imperativa |
+
+-----------------
+
+#### Corpo:
+Adicionar detalhes ao commit | Quebrar linha em até 75 caracteres | Explicar o commit | Usar markdown
+
+-----------------
+
+#### Rodapé:
+Referenciar os assuntos relacionados |
 
 
 
