@@ -93,9 +93,11 @@
 #### git init 
 - Inicia o git
 -----------------
-#### git status : Mostra o estado atual dos arquivos e diretórios
+#### git status 
+- Mostra o estado atual dos arquivos e diretórios
 
-#### git show : Mostra o que foi modificado dentro de um arquivo ou diretório (O que era antes e como está atualmente)
+#### git show 
+- Mostra o que foi modificado dentro de um arquivo ou diretório (O que era antes e como está atualmente)
 -----------------
 #### git log 
 - Traz informações sobre as alterações realizadas em um diretório, traz um histórico
