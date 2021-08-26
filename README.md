@@ -114,6 +114,9 @@
 #### git add 
 - Move o arquivo de untracked para unstage (Pronto para um novo commit)
 -----------------
+#### Comitar um arquivo usando editor de código VIM 
+- git commit 
+
 #### Comitar um arquivo
 - git commit meu_arquivo.txt
 
