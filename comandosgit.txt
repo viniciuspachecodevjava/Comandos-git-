@@ -66,17 +66,25 @@ git init : Inicia o git
 -
 git status : Mostra o estado atual dos arquivos e diretórios
 -
+git log : Traz informações sobre as alterações realizadas em um diretório, traz um histórico
+git log (exemplo.txt) : traz o histórico de um arquivo ou pasta em específico
+git log --oneline (exemplo.txt) : Traz o histórico de um arquivo ou pasta específica de forma resumida
+gitk : Traz todo o histórico de forma gráfica e "mastigada"
+-
 git add : Move o arquivo de untracked para unstage 
 (Pronto para um novo commit)
 -
 Comitar um arquivo
 git commit meu_arquivo.txt
 -
-Comitar vários arquivos
+Comitar vários arquivos:
 git commit meu_arquivo.txt meu_outro_arquivo.txt
 -
-Comitar informando mensagem
+Comitar informando mensagem:
 git commit meuarquivo.txt -m "minha mensagem de commit"
+-
+git reset --soft : Comando inverso do git add, reseta o último commit feito, e retorna ele para a área de staging/index, ou seja, antes do commit
+git reset --mixed : Reseta o útimo commit e retorna ele para área working dir, ou seja, antes de rodar o comando git add 
 -
 git push origin : Empurra o repositorio local para o github
 -
@@ -86,7 +94,7 @@ repositório local
 git remote -v: Lista as conecções existentes ou para onde 
 o servidor local está apontando
 -
-git checkout -b + nome : cria uma branch e se move para ela
+git checkout -b + nome : Cria uma branch e se move para ela
 -
 git checkout -d + nome : Deleta uma branch
 -
