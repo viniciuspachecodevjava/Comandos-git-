@@ -216,6 +216,18 @@ Adicionar detalhes ao commit | Quebrar linha em até 75 caracteres | Explicar o 
 #### Rodapé:
 Referenciar os assuntos relacionados |
 
+#### Exemplo:
+Adiciona mensagem de boas vindas
+(Quebra linha)
+Escrevendo mensagem de teste para que se tenha um parametro sobre 
+como escrever um commit de forma correta. Esse commit faz uso de:
+- Editor de código vscode
+- Gith bash
+(Quebra linha)
+Closes #1 (Ou seja, referencia o commit a um "Issues" direto do github, pedido de alteração 
+ou ideia que um usuario qualquer impôs)
+
+-----------------
 
 
 
