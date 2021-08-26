@@ -2,28 +2,30 @@
 
 
 ### Setar usuário
+-
 git config --global user.name "Leonardo Comelli"
 
 ### Setar email
+-
 git config --global user.email "leonardo@software-ltda.com.br"
 
 #### -a: Exibe arquivos e diretórios ocultos
+
 #### history: Histórico de comandos
+
 #### history -c : Limpa o histórico de comandos
 
-mkdir : Cria diretórios
+#### mkdir : Cria diretórios
 
-Remover arquivo
-git rm meu_arquivo.txt
--
-Remover diretório
-git rm -r diretorio
--
+#### rm meu_arquivo.txt : Remove arquivos 
+
+#### git rm -r diretorio : Remove diretórios
+
 mv + nome atual + novo nome : altera o nome de um arquivo
--
+
 mv dir (que eu quero mover)/ dir(diretório que quero colocar)/:
 Move um diretório para outro
--
+
 cp : Faz a cópia de um arquivo para um diretório
 -
 ls : Mostra o que tem dentro de cada diretório
