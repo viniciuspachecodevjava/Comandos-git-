@@ -3,11 +3,11 @@
 
 ### Setar usuário
 
-- git config --global user.name "Leonardo Comelli"
+- git config --global user.name "teste da silva"
 
 ### Setar email
 
-- git config --global user.email "leonardo@software-ltda.com.br"
+- git config --global user.email "teste@gmail.com"
 
 #### Git -a
 - Exibe arquivos e diretórios ocultos
