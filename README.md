@@ -2,14 +2,14 @@
 
 
 ### Setar usuário
--
-git config --global user.name "Leonardo Comelli"
+
+- git config --global user.name "Leonardo Comelli"
 
 ### Setar email
--
-git config --global user.email "leonardo@software-ltda.com.br"
 
-#### -a: Exibe arquivos e diretórios ocultos
+- git config --global user.email "leonardo@software-ltda.com.br"
+
+#### - -a: Exibe arquivos e diretórios ocultos
 
 #### history: Histórico de comandos
 
