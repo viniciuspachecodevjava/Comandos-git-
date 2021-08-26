@@ -18,30 +18,37 @@
 #### history -c 
 - Limpa o histórico de comandos
 
-#### mkdir : Cria diretórios
+#### mkdir 
+- Cria diretórios
 
-#### rm meu_arquivo.txt : Remove arquivos 
+#### rm meu_arquivo.txt 
+- Remove arquivos 
 
-#### git rm -r diretorio : Remove diretórios
+#### git rm -r diretorio 
+- Remove diretórios
 
-mv + nome atual + novo nome : altera o nome de um arquivo
+#### mv + nome atual + novo nome 
+- altera o nome de um arquivo
 
-mv dir (que eu quero mover)/ dir(diretório que quero colocar)/:
-Move um diretório para outro
+#### mv dir (que eu quero mover)/ dir(diretório que quero colocar)/
+-Move um diretório para outro
 
-cp : Faz a cópia de um arquivo para um diretório
--
-ls : Mostra o que tem dentro de cada diretório
--
-nl : Mostra o que tem detro de um arquivo e o numero de linhas
--
-touch: Cria arquivos
-ou echo > Cria arquivos
--
+#### cp (exemplo.txt) (exemplo2.txt)
+- Faz a cópia de um arquivo para um diretório
+
+#### ls 
+- Mostra o que tem dentro de cada diretório
+
+#### nl 
+- Mostra o que tem detro de um arquivo e o numero de linhas
+
+#### touch
+- Cria arquivos ou echo > Cria arquivos
+
 cd + dir : Entra em um diretório
--
+
 cd / : Muda para o diretório raíz
--
+
 cd ~ : Muda para o diretório pessoal
 -
 cd .. : Retorna
