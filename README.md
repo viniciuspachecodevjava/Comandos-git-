@@ -4,16 +4,15 @@
 ### Setar usuário
 git config --global user.name "Leonardo Comelli"
 
-Setar email
+### Setar email
 git config --global user.email "leonardo@software-ltda.com.br"
--
+
 #### -a: Exibe arquivos e diretórios ocultos
--
-history: Histórico de comandos
-history -c : Limpa o histórico de comandos
--
+#### history: Histórico de comandos
+#### history -c : Limpa o histórico de comandos
+
 mkdir : Cria diretórios
--
+
 Remover arquivo
 git rm meu_arquivo.txt
 -
