@@ -1,9 +1,9 @@
 # Comandos úteis para o GIT
 
--
-Setar usuário
+
+### Setar usuário
 git config --global user.name "Leonardo Comelli"
--
+
 Setar email
 git config --global user.email "leonardo@software-ltda.com.br"
 -
