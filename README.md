@@ -9,11 +9,11 @@
 
 - git config --global user.email "leonardo@software-ltda.com.br"
 
-#### - -a: Exibe arquivos e diretórios ocultos
+#### - Git -a: Exibe arquivos e diretórios ocultos
 
-#### history: Histórico de comandos
+#### - history: Histórico de comandos
 
-#### history -c : Limpa o histórico de comandos
+#### - history -c : Limpa o histórico de comandos
 
 #### mkdir : Cria diretórios
 
