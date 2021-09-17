@@ -1,11 +1,14 @@
 # Comandos úteis para o GIT
 
+#### Todas as branchs iniciais serão main
+-$ git config --global init.defaultBranch main
 
-### Setar usuário
+
+#### Setar usuário
 
 - git config --global user.name "teste da silva"
 
-### Setar email
+#### Setar email
 
 - git config --global user.email "teste@gmail.com"
 
@@ -132,6 +135,10 @@
 #### git reset --mixed head~1 
 - Reseta o útimo commit e retorna ele para área working dir, ou seja, antes de rodar o comando git add 
 -----------------
+
+#### Excluir o commit atual e retornar para o anterior 
+- git reset --hard HEAD~1
+
 #### git push origin 
 - Empurra o repositorio local para o github
 
