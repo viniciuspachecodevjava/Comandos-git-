@@ -150,6 +150,9 @@ repositório local
 - Lista as conecções existentes ou para onde 
 o servidor local está apontando
 
+#### git remote add + link
+- Conecta o git a um repositório remoto
+
 #### git checkout -b + nome 
 - Cria uma branch e se move para ela
 
